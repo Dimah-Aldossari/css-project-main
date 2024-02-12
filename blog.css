@@ -1,0 +1,377 @@
+* {
+  margin: 0%;
+}
+
+.nav {
+  height: 70px;
+
+  background-color: rgb(18, 19, 19);
+  border: 2px solid white;
+  position: sticky;
+  top: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 5px;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+li {
+  background-color: gray;
+  padding: 5px;
+  border-radius: 7px;
+}
+.text {
+  color: white;
+  font-size: 65px;
+  justify-content: center;
+  display: flex;
+  padding: 40px;
+}
+a {
+  color: aliceblue;
+}
+.icons {
+  /* width: 50%; */
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+.flex-icons {
+  width: 90%;
+}
+/* section 2 */
+
+.section2 {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0%;
+  background-color: white;
+  gap: 20px;
+}
+.bloger-name,
+p {
+  text-align: center;
+}
+/* section3 */
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+}
+.section3 .text-info {
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  text-align: center;
+}
+.section3 h1 {
+  color: white;
+  /* background-color: rgb(178, 178, 224); */
+  /* width: 80%; */
+  font-size: 64px;
+}
+.sub-btn {
+  width: 5%;
+  height: 10%;
+  /* background-color: #fff!important; */
+}
+
+button {
+  background-color: #fff;
+
+  color: #050505; /* لون النص */
+  border-radius: 5px; /* تدوير حواف الزر */
+  font-size: 16px; /* حجم النص */
+  padding: 10px 20px; /* الهوامش الداخلية */
+  text-transform: uppercase; /* تصغير النص */
+}
+
+main {
+  width: 750px;
+  height: auto;
+  margin: auto;
+  padding: 0px 0px 1px 0px;
+  font-family: "Averia Serif Libre", Garamond, serif;
+  background-color: #fff;
+  border-left: 2px solid #6c517b;
+  box-shadow: 9px 9px 5px #6c517b;
+}
+
+hr {
+  height: 10px;
+  background-image: url(https://missymjwrites.neocities.org/IMAGES/Wavy%20Line%20Black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  width: 675px;
+  padding: 8px;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background-size: contain;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Averia Serif Libre", Garamond, serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h1.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 55px 0px 25px 0px;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Averia Serif Libre", Garamond, serif;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+p {
+  color: black;
+  text-align: justify;
+  padding: 0rem 4rem 0rem 4rem;
+  line-height: 2;
+}
+
+.plinetwo {
+  text-indent: 3em;
+}
+
+div.foottext {
+  color: black;
+  text-align: justify;
+  padding: 0rem 8rem 0rem 4rem;
+  line-height: 2.5;
+}
+
+a.one:link {
+  background-color: #8e5d5d;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+a.one:visited {
+  background-color: #7b5151;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+a.one:hover {
+  background-color: #a47474;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a.two:link {
+  background-color: #5d698e;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+a.two:visited {
+  background-color: #47506c;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+a.two:hover {
+  background-color: #7480a4;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a.icon:link {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.icon:visited {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.icon:hover {
+  background-color: #d9d9d9;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  background-color: #5d8e5d;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a:visited {
+  background-color: #3c5d3c;
+  color: white;
+}
+
+a:hover {
+  background-color: #74a474;
+  color: black;
+}
+
+a:active {
+  background-color: #93b893;
+  color: black;
+}
+
+.trigger {
+  display: none;
+  text-align: center;
+}
+
+.warn:hover + .trigger {
+  display: block;
+  font-size: 15px;
+  background-color: #c98282;
+  padding: 15px 0px 15px 0px;
+}
+
+/**
+     * Initialiazing a `footnotes` counter on the wrapper
+     */
+article {
+  counter-reset: footnotes;
+  color: black; /* 2 */
+  background-color: white;
+}
+
+/**
+     * Inline footnotes references
+     * 1. Increment the counter at each new reference
+     * 2. Reset link styles to make it appear like regular text
+     */
+a[aria-describedby="footnote-label"] {
+  counter-increment: footnotes; /* 1 */
+  text-decoration: none; /* 2 */
+  color: black; /* 2 */
+  cursor: default; /* 2 */
+  outline: none; /* 2 */
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+}
+
+/**
+     * Actual numbered references
+     * 1. Display the current state of the counter (e.g. `[1]`)
+     * 2. Align text as superscript
+     * 3. Make the number smaller (since it's superscript)
+     * 4. Slightly offset the number from the text
+     * 5. Reset link styles on the number to show it's usable
+     */
+a[aria-describedby="footnote-label"]::after {
+  content: "[" counter(footnotes) "]"; /* 1 */
+  vertical-align: super; /* 2 */
+  font-size: 0.5em; /* 3 */
+  margin-left: 2px; /* 4 */
+  color: blue; /* 5 */
+  text-decoration: underline; /* 5 */
+  cursor: pointer; /* 5 */
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+
+/**
+     * Resetting the default focused styles on the number
+     */
+a[aria-describedby="footnote-label"]:focus::after {
+  outline: thin dotted;
+  outline-offset: 2px;
+  font-size: 14px;
+}
+
+footer :target {
+  background: #a587c5;
+  color: black;
+  padding: 10px;
+}
+
+a.footnotegoback:link {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  line-height: 1;
+}
+a.footnotegoback:hover {
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 25px;
+  line-height: 1;
+}
+a.footnotegoback:visited {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.button {
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 15px;
+  border: none;
+  color: #686191;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #d9d9d9;
+  color: #4d4d4d;
+  border: 2px solid #404040;
+}
+
+.button1:hover {
+  background-color: #bfbfbf;
+  color: black;
+}
+.footer {
+  width: 100vw;
+  height: 20vh;
+  background-color: #616161;
+  text-align: center;
+}
